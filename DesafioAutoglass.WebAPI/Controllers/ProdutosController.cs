@@ -45,11 +45,11 @@ namespace DesafioAutoglass.WebAPI.Controllers
                 return BadRequest("Dados inválidos");
 
             await _produtoService.Add(produtoDto);
-            return new CreatedAtRouteResult("GetCliente", new { id = produtoDto.Id },
+            return new CreatedAtRouteResult("GetProduto", new { id = produtoDto.Id },
                 produtoDto);
         }
 
-        [HttpPut]
+        [HttpPut("{id:int}")]
         public async Task<ActionResult> Put(int id, [FromBody] ProdutoDTO produtoDto)
         {
             if (id != produtoDto.Id)
@@ -74,7 +74,7 @@ namespace DesafioAutoglass.WebAPI.Controllers
 
             await _produtoService.Remove(id);
 
-            return Ok(produto);
+            return Ok();
         }
     }
 }

@@ -21,7 +21,7 @@ namespace LocalizaMVC.Infra.Data.EntitiesConfiguration
             builder.Property(p => p.DataValidade).IsRequired();
             builder.Property(p => p.CodigoFornecedor);
             builder.Property(p => p.DescricaoFornecedor).HasMaxLength(200);
-            builder.Property(p => p.CNPJFornecedor).HasMaxLength(18);            
+            builder.Property(p => p.CnpjFornecedor).HasMaxLength(18);            
         }
     }
 }

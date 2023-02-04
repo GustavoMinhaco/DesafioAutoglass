@@ -34,7 +34,7 @@ namespace DesafioAutoglass.Infra.Data.Repositories
 
         public async Task<IEnumerable<Produto>> GetProdutosAsync()
         {
-            return await _produtoContext.Produtos.ToListAsync();
+            return await _produtoContext.Produtos.Where(x => x.Situacao).ToListAsync();
         }
 
         public async Task<Produto> UpdateAsync(Produto produto)

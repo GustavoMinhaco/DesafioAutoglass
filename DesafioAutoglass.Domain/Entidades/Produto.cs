@@ -15,7 +15,7 @@ namespace DesafioAutoglass.Domain.Entidades
         public DateTime DataValidade { get; private set; }
         public int CodigoFornecedor { get; private set; }
         public string DescricaoFornecedor { get; private set; }
-        public string CNPJFornecedor { get; private set; }
+        public string CnpjFornecedor { get; private set; }
 
 
         public Produto(int id, string descricao, bool situacao, DateTime dataFabricacao, DateTime dataValidade, int codigoFornecedor, string descricaoFornecedor, string cnpjFornecedor)
@@ -48,7 +48,7 @@ namespace DesafioAutoglass.Domain.Entidades
             DataValidade = dataValidade;
             CodigoFornecedor = codigoFornecedor;
             DescricaoFornecedor = descricaoFornecedor;
-            CNPJFornecedor = cnpjFornecedor;
+            CnpjFornecedor = cnpjFornecedor;
         }
     }
 }

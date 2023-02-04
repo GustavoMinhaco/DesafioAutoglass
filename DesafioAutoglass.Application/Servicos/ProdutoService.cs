@@ -35,16 +35,16 @@ namespace DesafioAutoglass.Application.Servicos
             return _mapper.Map<ProdutoDTO>(produtoEntity);
         }
 
-        public async Task Add(ProdutoDTO clienteDto)
+        public async Task Add(ProdutoDTO produtoDto)
         {
-            var clienteEntity = _mapper.Map<Produto>(clienteDto);
-            await _produtoRepository.CreateAsync(clienteEntity);
+            var produtoEntity = _mapper.Map<Produto>(produtoDto);
+            await _produtoRepository.CreateAsync(produtoEntity);
         }
 
-        public async Task Update(ProdutoDTO clienteDto)
+        public async Task Update(ProdutoDTO produtoDto)
         {
-            var clienteEntity = _mapper.Map<Produto>(clienteDto);
-            await _produtoRepository.UpdateAsync(clienteEntity);
+            var produtoEntity = _mapper.Map<Produto>(produtoDto);
+            await _produtoRepository.UpdateAsync(produtoEntity);
         }
         public async Task Remove(int? id)
         {
