@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioAutoglass.Domain", "DesafioAutoglass.Domain\DesafioAutoglass.Domain.csproj", "{19ED4C72-67A5-402F-9DDC-6E9405BDD62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioAutoglass.Application", "DesafioAutoglass.Application\DesafioAutoglass.Application.csproj", "{6E795C02-CABE-4F73-9921-8644BF75F63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioAutoglass.Infra.Data", "DesafioAutoglass.Infra.Data\DesafioAutoglass.Infra.Data.csproj", "{F1CC4C22-C429-427F-8862-6F516B7656D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioAutoglass.Infra.IoC", "DesafioAutoglass.Infra.IoC\DesafioAutoglass.Infra.IoC.csproj", "{3E34E3B4-7E68-4265-81DC-19FE70CDB766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioAutoglass.WebAPI", "DesafioAutoglass.WebAPI\DesafioAutoglass.WebAPI.csproj", "{407BBFCF-A697-48BD-BD94-41C57106FF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioAutoglass.Domain.Tests", "DesafioAutoglass.Domain.Tests\DesafioAutoglass.Domain.Tests.csproj", "{BB20D0DC-E15C-415F-B104-54409BAC9310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19ED4C72-67A5-402F-9DDC-6E9405BDD62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19ED4C72-67A5-402F-9DDC-6E9405BDD62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19ED4C72-67A5-402F-9DDC-6E9405BDD62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19ED4C72-67A5-402F-9DDC-6E9405BDD62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E795C02-CABE-4F73-9921-8644BF75F63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E795C02-CABE-4F73-9921-8644BF75F63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E795C02-CABE-4F73-9921-8644BF75F63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E795C02-CABE-4F73-9921-8644BF75F63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CC4C22-C429-427F-8862-6F516B7656D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CC4C22-C429-427F-8862-6F516B7656D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CC4C22-C429-427F-8862-6F516B7656D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CC4C22-C429-427F-8862-6F516B7656D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E34E3B4-7E68-4265-81DC-19FE70CDB766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E34E3B4-7E68-4265-81DC-19FE70CDB766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E34E3B4-7E68-4265-81DC-19FE70CDB766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E34E3B4-7E68-4265-81DC-19FE70CDB766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407BBFCF-A697-48BD-BD94-41C57106FF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407BBFCF-A697-48BD-BD94-41C57106FF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407BBFCF-A697-48BD-BD94-41C57106FF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407BBFCF-A697-48BD-BD94-41C57106FF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB20D0DC-E15C-415F-B104-54409BAC9310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB20D0DC-E15C-415F-B104-54409BAC9310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB20D0DC-E15C-415F-B104-54409BAC9310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB20D0DC-E15C-415F-B104-54409BAC9310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8CCB05F-64D8-42E7-9043-DCD8F28EA4EF}
+	EndGlobalSection
+EndGlobal
